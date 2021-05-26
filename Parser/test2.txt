@@ -1,0 +1,30 @@
+{}
+int main()
+{
+    int n;
+    output <<"Enter n: ";
+    input << n ;
+
+    int sum;
+    sum=0;
+    int c;
+    c= 0 ;
+
+    output <<"Enter the numbers\n";
+	  //loop starts here
+   while(c< n)
+    {
+        int num ;
+        input>> num ;
+        sum=sum+ num ;
+        c=c+ 1 ;
+    }
+
+    int av;
+    av=sum/n ;//taking the average
+
+    output<< "The Average is";
+	output<<"=";
+	return 0;
+}
+{}
